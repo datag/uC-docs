@@ -1,8 +1,8 @@
 Build/ Program
 ==============
 
-AVR-Toolchain Linux
--------------------
+AVR-Toolchain Linux von Atmel
+-----------------------------
 
 http://www.atmel.com/tools/atmelavrtoolchainforlinux.aspx
 
@@ -10,6 +10,12 @@ http://www.atmel.com/tools/atmelavrtoolchainforlinux.aspx
     tar xvf avr8-gnu-toolchain-3.5.4.1709-linux.any.x86_64.tar.gz
     export PATH=$HOME/local/avr8-gnu-toolchain-linux_x86_64/bin:$PATH
     avr-gcc --version
+
+
+avr-libc Demo project
+---------------------
+
+http://www.nongnu.org/avr-libc/user-manual/group__demo__project.html
 
 
 Programming w/ avrdude
